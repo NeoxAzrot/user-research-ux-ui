@@ -1,3 +1,17 @@
+// Smooth scroll
+
+$(document).ready(function() {
+    $('.link_ancre').on('click', function() {
+        var page = $(this).attr('href');
+        var speed = 1500;
+        $('html, body').animate( { scrollTop: $(page).offset().top }, speed );
+        return false;
+    });
+});
+
+
+// Trie des fiches
+
 $('input[type=radio][name=trier]').change(function() {
     var container = $('#sheet_container');
     var sheets = $('.sheet');
