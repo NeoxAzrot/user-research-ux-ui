@@ -24,6 +24,12 @@ body {
     grid-column: 3;
 }
 
+footer {
+    grid-column: 2/5;
+    background-color: var(--white);
+}
+
+
 /* Polices et couleurs */
 
 :root{
@@ -143,6 +149,13 @@ h2 {
 
 .points_faible {
     background-color: var(--white);
+}
+
+footer p {
+    font-family: 'Raleway', sans-serif;
+    color: var(--blue);
+    font-size: 20px;
+    line-height: 40px;
 }
 
 /* Bouton */
