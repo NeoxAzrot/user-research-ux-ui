@@ -162,6 +162,7 @@ h2 {
     font-size: 28px;
     padding: 13px 28px;
     outline: none;
+    transition: 0.4s ease;
 }
 
 .buttons button:nth-child(1) {
@@ -178,6 +179,47 @@ h2 {
 
 .buttons img {
     margin-left: 5px;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+}
+
+.buttons button:nth-child(1):hover {
+    background-color: var(--yellow);
+    color: var(--blue);
+    border-color: var(--blue);
+}
+
+
+.buttons button:nth-child(2):hover {
+    background-color: var(--blue);
+    color: var(--beige);
+    border-color: var(--blue);
+}
+
+.buttons button:nth-child(1) .icon2 {
+    display: none;
+}
+
+.buttons button:nth-child(1):hover .icon1 {
+    display: none;
+}
+
+.buttons button:nth-child(1):hover .icon2 {
+    display: inline-block;
+}
+
+.buttons button:nth-child(2) .icon2 {
+    display: none;
+}
+
+.buttons button:nth-child(2):hover .icon1 {
+    display: none;
+}
+
+.buttons button:nth-child(2):hover .icon2 {
+    display: inline-block;
 }
 
 /* Scroll */
