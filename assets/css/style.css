@@ -57,7 +57,7 @@ h2 {
 
 #introduction p {
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     color: var(--blue);
     font-size: 22px;
 }
@@ -73,7 +73,7 @@ h2 {
     font-size: 22px;
 }
 
-.temps p {
+.difficulty p {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     color: var(--blue);
@@ -196,7 +196,7 @@ nav ul li {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: var(--blue);
-    font-size: 30px;
+    font-size: 28px;
     line-height: 6vh;
 }
 
@@ -204,7 +204,7 @@ nav ul li ul li {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: var(--blue);
-    font-size: 20px;
+    font-size: 18px;
     line-height: 4vh;
 }
 
@@ -330,6 +330,7 @@ nav a {
 
 /* Liste durée et temps et télécharger */
 
-.duree ul li, .temps ul li {
+.duree ul li, .difficulty ul li {
     list-style-type: none;
+    display: inline;
 }
