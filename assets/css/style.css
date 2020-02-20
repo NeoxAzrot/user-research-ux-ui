@@ -8,8 +8,10 @@
 
 body {
     margin: 0;
-    padding: 0;
     background-color: var(--yellow);
+    display: grid;
+    grid-template-columns: repeat(4, 20vw);
+    padding-left: 20vw;
 }
 
 h1 {
@@ -19,18 +21,47 @@ h1 {
     font-size: 72px;
 }
 
+nav {
+    background-color: var(--white);
+    margin: 0;
+    padding: 0;
+    width: 20vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav img {
+    width: 10vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 3vw;
+    padding: 0;
+}
+
 nav ul li {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: var(--blue);
-    font-size: 35px;
+    font-size: 1.8vw;
+    line-height: 6vh;
 }
 
 nav ul li ul li {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: var(--blue);
-    font-size: 22px;
+    font-size: 1.2vw;
+    line-height: 4vh;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 h2 {
