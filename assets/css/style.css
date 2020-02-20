@@ -1,4 +1,4 @@
-/*Body et Grid */
+/* Body et Grid */
 
 body {
     margin: 0;
@@ -6,7 +6,6 @@ body {
     display: grid;
     grid-template-columns: 20vw 20vw 2fr 20vw;
     grid-template-rows: repeat(20, 100px);
-
 }
 
 #video{
@@ -290,3 +289,13 @@ nav a {
 }
 
 /* Liste des points forts et points faibles */
+
+.points_fort ul li {
+    list-style: url('../svg/plus-circle-solid.svg');
+    padding-left: 10px;
+}
+
+.points_faible ul li {
+    list-style: url('../svg/minus-circle-solid.svg');
+    padding-left: 10px;
+}
