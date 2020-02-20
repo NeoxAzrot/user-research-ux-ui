@@ -67,7 +67,7 @@ h2 {
     font-size: 22px;
 }
 
-.temps p {
+.difficulty p {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     color: var(--blue);
@@ -317,6 +317,7 @@ nav a {
 
 /* Liste durée et temps et télécharger */
 
-.duree ul li, .temps ul li {
+.duree ul li, .difficulty ul li {
     list-style-type: none;
+    display: inline;
 }
