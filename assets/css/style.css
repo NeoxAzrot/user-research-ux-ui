@@ -163,15 +163,6 @@ h2 {
     padding: 13px 28px;
     outline: none;
     transition: 0.4s ease;
-}
-
-.buttons button:nth-child(1) {
-    background-color: var(--blue);
-    color: var(--beige);
-    border-color: var(--blue);
-}
-
-.buttons button:nth-child(2) {
     background-color: var(--yellow);
     color: var(--blue);
     border-color: var(--blue);
@@ -185,32 +176,21 @@ h2 {
     cursor: pointer;
 }
 
-.buttons button:nth-child(1):hover {
-    background-color: var(--yellow);
-    color: var(--blue);
-    border-color: var(--blue);
-}
-
-
-.buttons button:nth-child(2):hover {
+.buttons button:hover {
     background-color: var(--blue);
     color: var(--beige);
     border-color: var(--blue);
-}
-
-.buttons button:nth-child(1) .icon2 {
-    display: none;
-}
-
-.buttons button:nth-child(1):hover .icon1 {
-    display: none;
 }
 
 .buttons button:nth-child(1):hover .icon2 {
     display: inline-block;
 }
 
-.buttons button:nth-child(2) .icon2 {
+.buttons button:nth-child(2):hover .icon2 {
+    display: inline-block;
+}
+
+.buttons button:nth-child(1):hover .icon1 {
     display: none;
 }
 
@@ -218,8 +198,22 @@ h2 {
     display: none;
 }
 
-.buttons button:nth-child(2):hover .icon2 {
-    display: inline-block;
+.buttons button:nth-child(1) .icon2, .buttons button:nth-child(2) .icon2 {
+    display: none;
+}
+
+.buttons .clicked {
+    background-color: var(--blue);
+    color: var(--beige);
+    border-color: var(--blue);
+}
+
+.buttons .clicked .icon1 {
+    display: none;
+}
+
+.buttons .clicked .icon2 {
+    display: inline-block !important;
 }
 
 /* Scroll */

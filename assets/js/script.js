@@ -19,11 +19,15 @@ var all_sheets_sort;
 
 $('#difficulte').click(function() {
     all_sheets_sort = sheets_array.map(c=>c).sort((a,b) => a.dataset.difficulty - b.dataset.difficulty);
+    $('#difficulte').addClass('clicked');
+    $('#temps').removeClass('clicked');
     showSheet();
 });
 
 $('#temps').click(function() {
     all_sheets_sort = sheets_array.map(c=>c).sort((a,b) => a.dataset.time - b.dataset.time);
+    $('#temps').addClass('clicked');
+    $('#difficulte').removeClass('clicked');
     showSheet();
 });
 
