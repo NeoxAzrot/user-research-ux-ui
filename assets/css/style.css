@@ -145,17 +145,15 @@ h2 {
     background-color: var(--white);
 }
 
-<<<<<<< HEAD
+
 /* Bouton */
-#trier_par
-=======
+
 .scroll p {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: var(--blue);
     font-size: 22px;
 }
->>>>>>> d69d8fa7fbcd8c5cfef786b4757b2efe1cf95a47
 
 /* Menu de navigation */
 
