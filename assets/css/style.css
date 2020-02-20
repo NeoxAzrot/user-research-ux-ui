@@ -1,7 +1,130 @@
 :root{
-    --red: #EA3A3A;
     --blue: #1F0FB5;
     --yellow: #E5BE3C;
     --beige: #F4ECD1;
     --white: #FFFFFF;
+    --black: #2F2F2F;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--yellow);
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: var(--blue);
+    font-size: 72px;
+}
+
+nav ul li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: var(--blue);
+    font-size: 35px;
+}
+
+nav ul li ul li {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: var(--blue);
+    font-size: 22px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: var(--blue);
+    font-size: 58px;
+}
+
+#introduction p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: var(--blue);
+    font-size: 22px;
+}
+
+.sheet {
+    background-color: var(--beige);
+}
+
+.duree p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: var(--blue);
+    font-size: 22px;
+}
+
+.temps p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: var(--blue);
+    font-size: 22px;
+}
+
+.telecharger {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: var(--blue);
+    font-size: 22px;
+}
+
+.sheet h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: var(--blue);
+    font-size: 35px;
+}
+
+.resume p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 22px;
+}
+
+.etapes ol {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 22px;
+}
+
+.points_fort h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 35px;
+}
+
+.points_faible h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: var(--black);
+    font-size: 35px;
+}
+
+.points_fort ul {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 22px;
+}
+
+.points_faible ul {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 22px;
+}
+
+.points_fort {
+    background-color: var(--blue);
+}
+
+.points_faible {
+    background-color: var(--white);
 }
