@@ -154,8 +154,8 @@ h2 {
     background-color: var(--white);
 }
 
-<<<<<<< HEAD
 /* Bouton */
+
 #trier_par button{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -165,7 +165,7 @@ h2 {
     font-size: 35px;
     height: 86px;
 }
-=======
+
 footer p {
     font-family: 'Raleway', sans-serif;
     color: var(--blue);
@@ -174,7 +174,6 @@ footer p {
 }
 
 /* Bouton */
->>>>>>> 469bb6c85c53a0b347e8e92cb5ef1abf0493c9b7
 
 .scroll p {
     font-family: 'Lato', sans-serif;
@@ -182,10 +181,6 @@ footer p {
     color: var(--blue);
     font-size: 22px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 469bb6c85c53a0b347e8e92cb5ef1abf0493c9b7
 
 /* Menu de navigation */
 
