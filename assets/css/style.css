@@ -10,6 +10,9 @@ body {
 
 #video{
     grid-column: 2/5;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #introduction{
@@ -145,17 +148,24 @@ h2 {
     background-color: var(--white);
 }
 
-<<<<<<< HEAD
 /* Bouton */
-#trier_par
-=======
+#trier_par button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background-color: var(--blue);
+    color: var(--white);
+    border-color: var(--blue);
+    font-size: 35px;
+    height: 86px;
+}
+
 .scroll p {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: var(--blue);
     font-size: 22px;
 }
->>>>>>> d69d8fa7fbcd8c5cfef786b4757b2efe1cf95a47
+
 
 /* Menu de navigation */
 
