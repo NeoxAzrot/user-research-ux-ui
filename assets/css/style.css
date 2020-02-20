@@ -4,7 +4,7 @@ body {
     margin: 0;
     background-color: var(--yellow);
     display: grid;
-    grid-template-columns: 20vw 20vw 2fr 20vw;
+    grid-template-columns: 320px 1fr 780px 1fr;
     grid-template-rows: repeat(20, 100px);
 }
 
@@ -145,7 +145,7 @@ nav {
     background-color: var(--white);
     margin: 0;
     padding: 0;
-    width: 20vw;
+    width: 320px;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -153,14 +153,14 @@ nav {
 }
 
 nav img {
-    width: 10vw;
-    margin-left: 2vw;
-    margin-top: 2vw;
+    width: 180px;
+    margin-left: 20px;
+    margin-top: 40px;
 }
 
 nav ul {
     list-style-type: none;
-    margin-left: 3vw;
+    margin-left: 50px;
     padding: 0;
 }
 
@@ -168,7 +168,7 @@ nav ul li {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: var(--blue);
-    font-size: 1.8vw;
+    font-size: 30px;
     line-height: 6vh;
 }
 
@@ -176,7 +176,7 @@ nav ul li ul li {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: var(--blue);
-    font-size: 1.2vw;
+    font-size: 20px;
     line-height: 4vh;
 }
 
