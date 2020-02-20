@@ -6,14 +6,6 @@
     --black: #2F2F2F;
 }
 
-body {
-    margin: 0;
-    background-color: var(--yellow);
-    display: grid;
-    grid-template-columns: repeat(4, 20vw);
-    padding-left: 20vw;
-}
-
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
@@ -158,4 +150,13 @@ h2 {
 
 .points_faible {
     background-color: var(--white);
+}
+
+
+body {
+    margin: 0;
+    background-color: var(--yellow);
+    display: grid;
+    grid-template-columns: 20vw 20vw 2fr 20vw;
+
 }
