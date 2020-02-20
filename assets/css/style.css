@@ -128,3 +128,105 @@ h2 {
 .points_faible {
     background-color: var(--white);
 }
+
+.etapes ol li {
+    list-style-type: none;
+}
+
+.etapes ol li:before {
+    display: inline-block;
+    content: '';
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    margin-right: 19px;
+}
+
+.etapes .list_of_4 li:nth-child(1):before {
+    background-color: #FFFFFF;
+}
+
+.etapes .list_of_4 li:nth-child(2):before {
+    background-color: #A6A1DE;
+}
+
+.etapes .list_of_4 li:nth-child(3):before {
+    background-color: #746AD1;
+}
+
+.etapes .list_of_4 li:nth-child(4):before {
+    background-color: #1D00B8;
+}
+
+.etapes .list_of_5 li:nth-child(1):before {
+    background-color: #FFFFFF;
+}
+
+.etapes .list_of_5 li:nth-child(2):before {
+    background-color: #CDC6F2;
+}
+
+.etapes .list_of_5 li:nth-child(3):before {
+    background-color: #9D8FE5;
+}
+
+.etapes .list_of_5 li:nth-child(4):before {
+    background-color: #7467D4;
+}
+
+.etapes .list_of_5 li:nth-child(5):before {
+    background-color: #1D00B8;
+}
+
+.etapes .list_of_6 li:nth-child(1):before {
+    background-color: #FFFFFF;
+}
+
+.etapes .list_of_6 li:nth-child(2):before {
+    background-color: #DEDAF6;
+}
+
+.etapes .list_of_6 li:nth-child(3):before {
+    background-color: #BBB2ED;
+}
+
+.etapes .list_of_6 li:nth-child(4):before {
+    background-color: #8C7CE0;
+}
+
+.etapes .list_of_6 li:nth-child(5):before {
+    background-color: #4728CD;
+}
+
+.etapes .list_of_6 li:nth-child(6):before {
+    background-color: #1D00B8;
+}
+
+.etapes .list_of_7 li:nth-child(1):before {
+    background-color: #FFFFFF;
+}
+
+.etapes .list_of_7 li:nth-child(2):before {
+    background-color: #ECEAFA;
+}
+
+.etapes .list_of_7 li:nth-child(3):before {
+    background-color: #D2CEE7;
+}
+
+.etapes .list_of_7 li:nth-child(4):before {
+    background-color: #BBB1EF;
+}
+
+.etapes .list_of_7 li:nth-child(5):before {
+    background-color: #7463D7;
+}
+
+.etapes .list_of_7 li:nth-child(6):before {
+    background-color: #4F33CF;
+}
+
+.etapes .list_of_7 li:nth-child(7):before {
+    background-color: #1D00B8;
+}
