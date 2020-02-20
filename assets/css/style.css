@@ -14,7 +14,6 @@ body {
 
 #introduction{
     grid-column: 3;
-
 }
 
 #trier_par{
@@ -96,6 +95,13 @@ h2 {
     font-size: 22px;
 }
 
+.resume ul {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 22px;
+}
+
 .etapes ol {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -139,8 +145,17 @@ h2 {
     background-color: var(--white);
 }
 
+<<<<<<< HEAD
 /* Bouton */
 #trier_par
+=======
+.scroll p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: var(--blue);
+    font-size: 22px;
+}
+>>>>>>> d69d8fa7fbcd8c5cfef786b4757b2efe1cf95a47
 
 /* Menu de navigation */
 
@@ -301,4 +316,10 @@ nav a {
 .points_faible ul li {
     list-style: url('../svg/minus-circle-solid.svg');
     padding-left: 10px;
+}
+
+/* Liste durée et temps et télécharger */
+
+.duree ul li, .temps ul li {
+    list-style-type: none;
 }
