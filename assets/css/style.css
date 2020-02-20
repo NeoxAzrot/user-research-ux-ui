@@ -15,7 +15,6 @@ body {
 
 #introduction{
     grid-column: 3;
-
 }
 
 #trier_par{
@@ -96,6 +95,13 @@ h2 {
     font-size: 22px;
 }
 
+.resume ul {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: var(--black);
+    font-size: 22px;
+}
+
 .etapes ol {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -137,6 +143,13 @@ h2 {
 
 .points_faible {
     background-color: var(--white);
+}
+
+.scroll p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: var(--blue);
+    font-size: 22px;
 }
 
 /* Menu de navigation */
@@ -300,3 +313,8 @@ nav a {
     padding-left: 10px;
 }
 
+/* Liste durée et temps et télécharger */
+
+.duree ul li, .temps ul li {
+    list-style-type: none;
+}
