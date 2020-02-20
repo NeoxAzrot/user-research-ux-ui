@@ -90,6 +90,17 @@ h2 {
     font-size: 22px;
 }
 
+.telecharger span {
+    font-size: 16px;
+}
+
+.zip {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: var(--blue);
+    font-size: 22px;
+}
+
 .sheet h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
