@@ -189,6 +189,10 @@ h2 {
     border-color: var(--blue);
 }
 
+.buttons button:nth-child(2) {
+    margin-left: 10px;
+}
+
 .buttons img {
     margin-left: 5px;
 }
