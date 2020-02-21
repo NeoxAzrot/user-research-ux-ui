@@ -320,12 +320,8 @@ nav ul li ul li a{
     font-weight: 400;
     color: var(--blue);
     font-size: 18px;
-<<<<<<< HEAD
     line-height: 22px;
-=======
-    line-height: 28px;
->>>>>>> 8cb59d5a3bd513137a712336215655c18ecefd46
-}
+
 
 a {
     text-decoration: none;
