@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--yellow);
+    display: grid;
+    grid-template-columns: 1fr 780px 1fr;
+}
+
+:root{
+    --blue: #1F0FB5;
+    --yellow: #E5BE3C;
+    --beige: #F4ECD1;
+    --white: #FFFFFF;
+    --black: #2F2F2F;
+}
+
+#mentionslegales {
+  grid-column: 2 / 3;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: var(--blue);
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: var(--blue);
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: var(--blue);
+    font-size: 22px;
+}
+
+img {
+  grid-column: 1;
+  width: 300px;
+  margin-left: calc((25vw - 300px) / 2);
+}
