@@ -573,7 +573,7 @@ a::before {
 
 #progress_bar {
     position: absolute;
-    top: 0;
+    top: 10px;
     left: -15px;
     height: 15px;
     background: var(--blue);
