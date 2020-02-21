@@ -5,11 +5,8 @@ body {
     background-color: var(--yellow);
     display: grid;
     grid-template-columns: 320px 1fr 780px 1fr;
-<<<<<<< HEAD
     grid-template-rows: 1220px 520px 280px 20000px 540px;
-=======
     grid-template-rows: 1220px 520px 520px 20000px 520px;
->>>>>>> adcd7ee93d1c1b5842c22ee3d1db0b7acf627ee1
 }
 
 #video{
