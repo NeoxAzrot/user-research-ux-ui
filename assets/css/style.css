@@ -5,7 +5,7 @@ body {
     background-color: var(--yellow);
     display: grid;
     grid-template-columns: 320px 1fr 780px 1fr;
-    grid-template-rows: 900px 450px 350px 26300px 520px;
+    grid-template-rows: 900px 450px 350px 25900px 520px;
 }
 
 #zip {
@@ -320,8 +320,8 @@ nav ul li ul li a{
     font-weight: 400;
     color: var(--blue);
     font-size: 18px;
-    line-height: 22px;
-
+    line-height: 27px;
+}
 
 a {
     text-decoration: none;
@@ -681,9 +681,8 @@ footer img {
     }
 
     body {
-        display : inline-block;
-        padding-left: 36px;
-        padding-right: 36px;
+        grid-template-columns: 1fr 400px 1fr;
+        grid-template-rows: 83px 600px;
     }
 
     h1{
@@ -697,14 +696,24 @@ footer img {
         padding-right: 200px;
         z-index: 100;
         text-align: right;
+        grid-column: 2;
     }
 
     #introduction {
-        margin-top: 123px;
+        margin-top: 100px;
+        grid-column: 2;
     }
 
+    #sheet_container{
+        grid-column: 2;
+    }
+
+
+
+    /* Taille Text */
     h2{
         font-size: 20px;
+        text-transform: uppercase;
     }
 
     #introduction p, .zip, .resume p, .resume ul , .etapes ol, .points_fort ul, .points_faible ul {
@@ -721,6 +730,71 @@ footer img {
 
     .sheet h3 {
         font-size: 20px;
+    }
+
+    /* Icone Durée, difficultée et télécharger */
+
+    .difficulty ul, .duree ul {
+        margin-top: 12px;
+        margin-left: -30px;
+    }
+    
+    .difficulty ul li img, .duree ul li img {
+        width: 13px;
+        height: auto;
+    }
+
+    .etapes ol{
+        padding-left: 0px;
+    }
+
+    .telecharger {
+        float: left;
+        margin-top: 0px;
+    }
+
+    /* Liste des points forts et points faibles */
+
+    .points_fort h3, .points_faible h3{
+        padding-top: 20px;
+        margin : 0px;
+    }
+
+    .points_fort {
+        width: auto;
+        height: auto;
+        border-radius: 0;
+        display: block;
+        position: relative;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+
+    }
+
+
+    .points_fort ul {
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .points_faible {
+        width: auto;
+        height: auto;
+        border-radius: 0;
+        display: block;
+        position: relative;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .points_faible ul {
+        padding-left: 0px;
+        padding-right: 0px;
+
     }
 
 }
