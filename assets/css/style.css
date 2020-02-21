@@ -274,8 +274,35 @@ nav ul li ul li a{
     line-height: 4vh;
 }
 
-nav a {
+.link_ancre {
     text-decoration: none;
+}
+
+.link_ancre {
+    position: relative;
+}
+
+.link_ancre::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    display: inline-block;
+    transition: 0.4s ease;
+}
+
+.link_ancre::before { 
+    background-color: var(--blue);
+}
+
+.link_ancre:hover::before {
+    width: 100%;
+}
+
+.telecharger a {
+    color: var(--blue);
 }
 
 /* Liste des étapes avec bulle de couleur */
