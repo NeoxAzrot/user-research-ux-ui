@@ -311,7 +311,7 @@ nav ul li ul li a{
     font-weight: 400;
     color: var(--blue);
     font-size: 18px;
-    line-height: 33px;
+    line-height: 22px;
 }
 
 a {
@@ -637,6 +637,19 @@ footer img {
 #footerright {
     text-align: right;
     grid-column: 2;
+}
+
+/* Redimensionnement */
+
+@media  (max-width: 1100px){
+    body {
+        margin: 0;
+        background-color: var(--yellow);
+        display: grid;
+        grid-template-columns: 320px 1fr 600px 1fr;
+        grid-template-rows: 900px 450px 350px 26300px 520px;
+    }
+
 }
 
 /* Disposition mobile */
