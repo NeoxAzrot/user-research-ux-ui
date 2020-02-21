@@ -19,6 +19,15 @@ body {
     align-items: center;
 }
 
+#video .scroll{
+    padding-top: 100px;
+}
+
+#video .scroll p{
+    margin-top: 5px;
+
+}
+
 #introduction{
     grid-column: 3;
 }
@@ -65,28 +74,29 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: var(--blue);
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 32px;
 }
 
 .duree p {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     color: var(--blue);
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .difficulty p {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     color: var(--blue);
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .telecharger {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: var(--blue);
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .telecharger span {
@@ -97,7 +107,7 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: var(--blue);
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .sheet h3 {
@@ -111,21 +121,24 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: var(--black);
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 32px;
 }
 
 .resume ul {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: var(--black);
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 32px;
 }
 
 .etapes ol {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: var(--black);
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 32px;
 }
 
 .points_fort h3 {
@@ -146,14 +159,16 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: var(--white);
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 32px;
 }
 
 .points_faible ul {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: var(--black);
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 32px;
 }
 
 .points_fort {
@@ -265,7 +280,7 @@ nav ul li a {
     font-weight: 700;
     color: var(--blue);
     font-size: 28px;
-    line-height: 6vh;
+    line-height: 55px;
 }
 
 nav ul li ul li a{
@@ -273,7 +288,7 @@ nav ul li ul li a{
     font-weight: 400;
     color: var(--blue);
     font-size: 18px;
-    line-height: 4vh;
+    line-height: 22px;
 }
 
 a {
@@ -553,12 +568,12 @@ footer img {
     h1{
         position: fixed;
         background-color: white;
-        width: 100vw;
+        width: 100%;
         font-size: 28px;
         margin: 0px;
         padding-top: 25px;
         padding-bottom: 25px;
-        padding-right: 300px;
+        padding-right: 200px;
         z-index: 100;
         text-align: right;
     }
