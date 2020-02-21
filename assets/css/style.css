@@ -5,12 +5,16 @@ body {
     background-color: var(--yellow);
     display: grid;
     grid-template-columns: 320px 1fr 780px 1fr;
-    grid-template-rows: 1220px 520px 520px 26000px 520px;
+    grid-template-rows: 1220px 520px 520px 26300px 520px;
+}
+
+.logo_mobile{
+    display: none;
 }
 
 #video{
     grid-column: 2/5;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -229,7 +233,34 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: var(--blue);
-    font-size: 22px;
+    font-size: 20px;
+    transform: translateX(-25%);
+    margin-top: 0;
+    margin-top: 65px;
+}
+
+.scroll {
+    margin-top: 20px;
+    position: relative;
+}
+
+.scroll img {
+    animation: scroll_animation 3s ease infinite;
+    position: absolute;
+}
+
+@keyframes scroll_animation {
+    0% {
+        top: -15px;
+    }
+
+    30% {
+        top: 7px;
+    }
+
+    100% {
+        top: -15px;
+    }
 }
 
 /* Menu de navigation */
@@ -547,6 +578,7 @@ a::before {
     height: 15px;
     background: var(--blue);
     width: 5px;
+    border-radius: 5px;
 }
 
 /* Les fiches */
@@ -604,23 +636,59 @@ footer img {
         display:none;
     }
 
+    .logo_mobile {
+        display: inline;
+        position: fixed;
+        padding-top: 25px;
+        padding-left: 100px;
+        z-index: 200;
+    }
+
+    .logo_mobile img{
+        height: 40px;
+    }
+
     body {
         display : inline-block;
         padding-left: 36px;
-        padding-right
-        : 36px;
+        padding-right: 36px;
     }
 
     h1{
+        position: fixed;
+        background-color: white;
+        width: 100vw;
         font-size: 28px;
+        margin: 0px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-right: 300px;
+        z-index: 100;
+        text-align: right;
+    }
+
+    #introduction {
+        margin-top: 123px;
     }
 
     h2{
         font-size: 20px;
     }
 
-#introduction p, .duree p, .difficulty p, .telecharger, .zip, .resume p, .resume ul , .etapes ol, .points_fort ul, .points_faible ul {
+    #introduction p, .zip, .resume p, .resume ul , .etapes ol, .points_fort ul, .points_faible ul {
         font-size: 18px;
+        -webkit-hyphens: auto; /* césure propre */
+        -moz-hyphens: auto;
+        hyphens: auto;
+        word-wrap: break-word; /* passage à la ligne forcé */
+    }
+
+    .duree p, .difficulty p, .telecharger {
+        font-size: 12px;
+    }
+
+    .sheet h3 {
+        font-size: 20px;
     }
 
 }
