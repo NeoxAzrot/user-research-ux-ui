@@ -9,12 +9,12 @@ body {
 }
 
 .logo_mobile{
-    display:none;
+    display: none;
 }
 
 #video{
     grid-column: 2/5;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -503,6 +503,7 @@ a::before {
     height: 15px;
     background: var(--blue);
     width: 5px;
+    border-radius: 5px;
 }
 
 /* Les fiches */
