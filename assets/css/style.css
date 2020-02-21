@@ -5,7 +5,7 @@ body {
     background-color: var(--yellow);
     display: grid;
     grid-template-columns: 320px 1fr 780px 1fr;
-    grid-template-rows: 1220px 520px 520px 26300px 520px;
+    grid-template-rows: 900px 450px 350px 26300px 520px;
 }
 
 .logo_mobile{
@@ -20,13 +20,9 @@ body {
 }
 
 #video .scroll{
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
-#video .scroll p{
-    margin-top: 5px;
-
-}
 
 #introduction{
     grid-column: 3;
