@@ -8,6 +8,11 @@ body {
     grid-template-rows: 900px 450px 350px 26300px 520px;
 }
 
+#zip {
+    text-align: center;
+    font-size: 22px;
+}
+
 .logo_mobile{
     display: none;
 }
@@ -189,6 +194,10 @@ h2 {
     border-color: var(--blue);
 }
 
+.buttons button:nth-child(2) {
+    margin-left: 10px;
+}
+
 .buttons img {
     margin-left: 5px;
 }
@@ -311,7 +320,11 @@ nav ul li ul li a{
     font-weight: 400;
     color: var(--blue);
     font-size: 18px;
+<<<<<<< HEAD
     line-height: 22px;
+=======
+    line-height: 28px;
+>>>>>>> 8cb59d5a3bd513137a712336215655c18ecefd46
 }
 
 a {

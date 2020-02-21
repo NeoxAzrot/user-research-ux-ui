@@ -32,6 +32,7 @@ $('#temps').click(function() {
 });
 
 function showSheet() {
+    all_sheets_sort.push($('#zip')[0]);
     container.empty();
     
     for(var i = 0; i < all_sheets_sort.length; i++) {
