@@ -273,8 +273,68 @@ nav ul li ul li a{
     line-height: 4vh;
 }
 
-nav a {
+a {
     text-decoration: none;
+}
+
+a {
+    position: relative;
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    display: inline-block;
+    transition: 0.4s ease;
+}
+
+a::before { 
+    background-color: var(--blue);
+}
+
+.link_ancre:hover::before {
+    width: 100%;
+}
+
+.telecharger a, .zip a, footer a {
+    color: var(--blue);
+}
+
+.telecharger a::before, .zip a::before, footer p a::before {
+    width: 100%;
+    animation: animation_link_out 0.4s ease;
+}
+
+.telecharger a:hover::before, .zip a:hover::before, footer p a:hover::before {
+    animation: animation_link_in 0.4s ease forwards;
+}
+
+@keyframes animation_link_in {
+    0% {
+        left: 0;
+        width: 100%;
+    }
+
+    100% {
+        left: 100%;
+        width: 0%;
+    }
+}
+
+@keyframes animation_link_out {
+    0% {
+        left: 100%;
+        width: 0%;
+    }
+
+    100% {
+        left: 0;
+        width: 100%;
+    }
 }
 
 /* Liste des étapes avec bulle de couleur */
