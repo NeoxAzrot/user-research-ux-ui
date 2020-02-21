@@ -5,16 +5,16 @@ body {
     background-color: var(--yellow);
     display: grid;
     grid-template-columns: 320px 1fr 780px 1fr;
-    grid-template-rows: 1220px 520px 280px 20000px 520px;
+    grid-template-rows: 1220px 520px 520px 26300px 520px;
 }
 
 .logo_mobile{
-    display:none;
+    display: none;
 }
 
 #video{
     grid-column: 2/5;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -247,7 +247,34 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: var(--blue);
-    font-size: 22px;
+    font-size: 20px;
+    transform: translateX(-25%);
+    margin-top: 0;
+    margin-top: 65px;
+}
+
+.scroll {
+    margin-top: 20px;
+    position: relative;
+}
+
+.scroll img {
+    animation: scroll_animation 3s ease infinite;
+    position: absolute;
+}
+
+@keyframes scroll_animation {
+    0% {
+        top: -15px;
+    }
+
+    30% {
+        top: 7px;
+    }
+
+    100% {
+        top: -15px;
+    }
 }
 
 /* Menu de navigation */
@@ -310,7 +337,7 @@ a::before {
     transition: 0.4s ease;
 }
 
-a::before { 
+a::before {
     background-color: var(--blue);
 }
 
@@ -355,10 +382,22 @@ a::before {
     }
 }
 
+/* Résumé */
+
+.resume {
+    margin-top: 50px;
+}
+
 /* Liste des étapes avec bulle de couleur */
+
+.etapes {
+    padding-bottom: 50px;
+    margin-top: 70px;
+}
 
 .etapes ol li {
     list-style-type: none;
+    line-height: 30px;
 }
 
 .etapes ol li:before {
@@ -461,14 +500,51 @@ a::before {
 
 /* Liste des points forts et points faibles */
 
+.points_fort {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    margin-top: -500px;
+}
+
+.points_fort ul {
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
+.points_faible {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 500px;
+    margin-bottom: 50px;
+}
+
+.points_faible ul {
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
 .points_fort ul li {
     list-style: url('../svg/plus-circle-solid.svg');
     padding-left: 10px;
+    margin-top: 10px;
 }
 
 .points_faible ul li {
     list-style: url('../svg/minus-circle-solid.svg');
     padding-left: 10px;
+    margin-top: 10px;
 }
 
 /* Liste durée et temps et télécharger */
@@ -476,6 +552,31 @@ a::before {
 .duree ul li, .difficulty ul li {
     list-style-type: none;
     display: inline;
+}
+
+.duree {
+    display: flex;
+    flex-direction: row;
+}
+
+.duree ul {
+    margin-top: 20px;
+}
+
+.difficulty {
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+}
+
+.difficulty ul {
+    margin-top: 20px;
+    margin-left: -30px;
+}
+
+.telecharger {
+    float: right;
+    margin-top: -90px;
 }
 
 /* Progress bar */
@@ -491,13 +592,15 @@ a::before {
     height: 15px;
     background: var(--blue);
     width: 5px;
+    border-radius: 5px;
 }
 
 /* Les fiches */
 
 .sheet {
     background-color: var(--beige);
-    padding: 0 30px;
+    padding: 1px 30px;
+    margin-bottom: 80px;
     position: relative;
 }
 
