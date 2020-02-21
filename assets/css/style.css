@@ -5,7 +5,11 @@ body {
     background-color: var(--yellow);
     display: grid;
     grid-template-columns: 320px 1fr 780px 1fr;
-    grid-template-rows: 1220px 520px 520px 20000px 540px;
+<<<<<<< HEAD
+    grid-template-rows: 1220px 520px 280px 20000px 540px;
+=======
+    grid-template-rows: 1220px 520px 520px 20000px 520px;
+>>>>>>> adcd7ee93d1c1b5842c22ee3d1db0b7acf627ee1
 }
 
 #video{
@@ -435,9 +439,57 @@ nav a {
 
 /* Footer */
 
+footer {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 footer p {
     font-family: 'Raleway', sans-serif;
     color: var(--blue);
     font-size: 20px;
     line-height: 40px;
+}
+
+footer img {
+    width: 200px;
+    margin-top: 50px;
+}
+
+#footerleft {
+    grid-column: 1;
+}
+
+#footerright {
+    text-align: right;
+    grid-column: 2;
+}
+
+/* Disposition mobile */
+
+@media  (max-width: 768px){
+    nav, #video iframe, #video div, #trier_par {
+        display:none;
+    }
+
+    body {
+        display : inline-block;
+        padding-left: 36px;
+        padding-right
+        : 36px;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+#introduction p, .duree p, .difficulty p, .telecharger, .zip, .resume p, .resume ul , .etapes ol, .points_fort ul, .points_faible ul {
+        font-size: 18px;
+    }
+
 }
