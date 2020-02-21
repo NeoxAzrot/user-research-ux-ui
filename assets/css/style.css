@@ -652,11 +652,22 @@ footer img {
 
 @media  (max-width: 1100px){
     body {
-        margin: 0;
-        background-color: var(--yellow);
-        display: grid;
-        grid-template-columns: 320px 1fr 600px 1fr;
+        grid-template-columns: 320px 20px 60vw 20px;
         grid-template-rows: 900px 450px 350px 26300px 520px;
+    }
+
+}
+
+@media  (max-width: 890px){
+    body {
+        margin: 0;
+        grid-template-columns: 320px 10px 55vw 10px;
+        grid-template-rows: 900px 450px 350px 26300px 520px;
+    }
+
+    .telecharger {
+        float: left;
+        margin-top: 0px;
     }
 
 }
