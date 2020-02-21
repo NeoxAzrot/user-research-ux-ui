@@ -38,3 +38,16 @@ function showSheet() {
         container.append(all_sheets_sort[i]);
     }
 }
+
+// Progress bar //
+
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.getElementById("sheet_container").offsetTop;
+  var scrolled = (winScroll / height) * 115;
+  if(winScroll < height) {
+      document.getElementById("progress_bar").style.top = scrolled + "%";
+  }
+}

@@ -6,7 +6,6 @@ body {
     display: grid;
     grid-template-columns: 320px 1fr 780px 1fr;
     grid-template-rows: 1220px 520px 280px 20000px 520px;
-
 }
 
 #video{
@@ -399,6 +398,21 @@ nav a {
 .duree ul li, .difficulty ul li {
     list-style-type: none;
     display: inline;
+}
+
+/* Progress bar */
+
+.container_bar {
+    position: relative;
+}
+
+#progress_bar {
+    position: absolute;
+    top: 0;
+    left: -15px;
+    height: 15px;
+    background: var(--blue);
+    width: 5px;
 }
 
 /* Les fiches */
