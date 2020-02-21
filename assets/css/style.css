@@ -8,6 +8,11 @@ body {
     grid-template-rows: 900px 450px 350px 26300px 520px;
 }
 
+#zip {
+    text-align: center;
+    font-size: 22px;
+}
+
 .logo_mobile{
     display: none;
 }
