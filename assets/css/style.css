@@ -400,6 +400,21 @@ nav a {
     display: inline;
 }
 
+/* Progress bar */
+
+.container_bar {
+    position: relative;
+}
+
+#progress_bar {
+    position: absolute;
+    top: 0;
+    left: -15px;
+    height: 15px;
+    background: var(--blue);
+    width: 5px;
+}
+
 /* Les fiches */
 
 .sheet {
