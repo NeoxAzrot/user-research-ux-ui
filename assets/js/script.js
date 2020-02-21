@@ -46,8 +46,8 @@ window.onscroll = function() {myFunction()};
 function myFunction() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
   var height = document.getElementById("sheet_container").offsetTop;
-  var scrolled = (winScroll / height) * 106;
+  var scrolled = (winScroll / height) * 109;
   if(winScroll < height) {
-      document.getElementById("progress_bar").style.top = "calc(" + scrolled + "%" + " + 10px)";
+      document.getElementById("progress_bar").style.top = "calc(" + scrolled + "%" + " + 13px)";
   }
 }
