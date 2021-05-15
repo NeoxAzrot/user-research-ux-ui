@@ -21,3 +21,7 @@ So you can choose your favorite way of learning to best understand user research
 In addition, you have the possibility **to sort** the different user search techniques according to duration and complexity.
 
 User search will no longer hold any secrets for you!
+
+---
+
+[Sami Lafrance](https://www.samilafrance.com/)
